@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Obsidian 不需要同步的快取與工作狀態
+.trash/
+.obsidian/cache/
+.obsidian/workspace*
+
+# （可選）如果你之後發現某些檔案不想同步，可再加在下面
