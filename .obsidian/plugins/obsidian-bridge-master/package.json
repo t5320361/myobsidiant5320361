@@ -1,0 +1,109 @@
+{
+  "name": "@aidenlx/obsidian-bridge",
+  "version": "3.0.4",
+  "description": "MarginNote 3 --> Obsidian",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "dev": "rollup --config rollup.config.js",
+    "build": "rm -rf lib && rollup --config rollup.config.js --environment BUILD:production",
+    "prettier": "prettier --write 'src/**/*.+(ts|tsx|json|html|css)'",
+    "eslint": "eslint src/**/* --ext .ts,.tsx --fix",
+    "release": "release-it"
+  },
+  "keywords": [],
+  "author": "AidenLx",
+  "license": "MIT",
+  "devDependencies": {
+    "@aidenlx/jsonurl": "^1.0.2-SNAPSHOT",
+    "@alx-plugins/marginnote": "^1.8.4",
+    "@release-it/bumper": "^3.0.1",
+    "@release-it/conventional-changelog": "^3.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@types/url-parse": "^1.4.4",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "@zerollup/ts-transform-paths": "^1.7.18",
+    "assert-never": "^1.2.1",
+    "compare-versions": "^3.6.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsdoc": "^36.0.6",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "obsidian": "^0.12.11",
+    "prettier": "^2.3.2",
+    "query-string": "^6.14.1",
+    "release-it": "^14.11.5",
+    "rollup": "^2.56.2",
+    "rollup-plugin-copy2": "^0.3.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-zip": "^1.0.2",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "tslib": "^2.3.1",
+    "ttypescript": "^1.5.12",
+    "typescript": "^4.3.5",
+    "url-parse": "^1.5.3"
+  },
+  "peerDependencies": {
+    "@alx-plugins/marginnote": "^1.8.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release-it": {
+    "hooks": {
+      "before:init": [
+        "npm run prettier",
+        "npm run eslint"
+      ],
+      "after:bump": [
+        "sed -i '' -E -e 's/const version = \"[0-9.]+\"/const version = \"${version}\"/' src/const.ts",
+        "sed -i '' \"s/MarginNote v.*$/MarginNote v$(cat mnaddon.json | json marginnote_version_min)+./\" README.md",
+        "git add .",
+        "npm run build"
+      ],
+      "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+    },
+    "git": {
+      "commitMessage": "chore: release v${version}",
+      "tagName": "${version}",
+      "tagAnnotation": "Release v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true,
+      "assets": [
+        "dist/ob-bridge.mnaddon"
+      ],
+      "proxy": "http://127.0.0.1:7890",
+      "releaseName": "${version}"
+    },
+    "plugins": {
+      "@release-it/bumper": {
+        "out": "mnaddon.json"
+      },
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

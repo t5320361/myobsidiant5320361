@@ -1,0 +1,8 @@
+{
+  "addonid": "marginnote.extension.obsidian-bridge",
+  "author": "AidenLx",
+  "title": "Obsidian Bridge",
+  "version": "3.0.4",
+  "marginnote_version_min": "3.7.12",
+  "cert_key": ""
+}
