@@ -1,0 +1,98 @@
+{
+  "version": 2,
+  "fsrsSettings": {
+    "revlog_tags": [],
+    "request_retention": 0.9,
+    "maximum_interval": 36500,
+    "w": [
+      0.212,
+      1.2931,
+      2.3065,
+      8.2956,
+      6.4133,
+      0.8334,
+      3.0194,
+      0.001,
+      1.8722,
+      0.1666,
+      0.796,
+      1.4835,
+      0.0614,
+      0.2629,
+      1.6483,
+      0.6014,
+      1.8729,
+      0.5425,
+      0.0912,
+      0.0658,
+      0.1542
+    ],
+    "enable_fuzz": true,
+    "enable_short_term": true,
+    "learning_steps": [
+      "1m",
+      "10m"
+    ],
+    "relearning_steps": [
+      "10m"
+    ]
+  },
+  "deckOptionsPresets": [
+    {
+      "name": "默认方案",
+      "autoAdvance": true,
+      "autoAdvanceSeconds": 10,
+      "showProgressBar": true,
+      "maxNewCards": 20,
+      "maxReviews": 200,
+      "maxNewExtracts": 10,
+      "maxExtractReviews": 50,
+      "cardOrder": "DueFirstRandom",
+      "reviewQueueMode": "extract-first",
+      "interleaveFlashcardCount": 4,
+      "learningSteps": "1m 10m",
+      "lapseSteps": "10m",
+      "fsrs": {
+        "revlog_tags": [],
+        "request_retention": 0.9,
+        "maximum_interval": 36500,
+        "w": [
+          0.212,
+          1.2931,
+          2.3065,
+          8.2956,
+          6.4133,
+          0.8334,
+          3.0194,
+          0.001,
+          1.8722,
+          0.1666,
+          0.796,
+          1.4835,
+          0.0614,
+          0.2629,
+          1.6483,
+          0.6014,
+          1.8729,
+          0.5425,
+          0.0912,
+          0.0658,
+          0.1542
+        ],
+        "enable_fuzz": true,
+        "enable_short_term": true,
+        "learning_steps": [
+          "1m",
+          "10m"
+        ],
+        "relearning_steps": [
+          "10m"
+        ]
+      },
+      "uuid": "deck-preset-default",
+      "createdAt": "1970-01-01T00:00:00.000Z"
+    }
+  ],
+  "deckPresetAssignment": {},
+  "syncEntities": {}
+}

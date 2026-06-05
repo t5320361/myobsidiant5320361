@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "nextItemId": 2,
+  "items": {
+    "Syro 侧边栏复习教程.md": {
+      "source": "manual",
+      "deckName": "default",
+      "item": {
+        "learningStep": null,
+        "queue": 0,
+        "priority": 5,
+        "nextReview": 0,
+        "ID": 1,
+        "fileID": "Syro 侧边栏复习教程.md",
+        "uuid": "file-19f0a852",
+        "aliases": [
+          "i_mp8izgmq_o7fykl",
+          "tf_mp8olb1q_mtw36x"
+        ],
+        "itemType": "note",
+        "deckName": "default",
+        "timesReviewed": 0,
+        "timesCorrect": 0,
+        "errorStreak": 0,
+        "data": {
+          "currentInterval": 1
+        }
+      }
+    }
+  },
+  "syncEntities": {}
+}

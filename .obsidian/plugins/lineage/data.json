@@ -1,18 +1,5 @@
 {
-  "documents": {
-    "未命名 1.md": {
-      "documentFormat": "sections",
-      "viewType": "lineage",
-      "activeSection": "1.2.5",
-      "pinnedSections": {
-        "sections": [],
-        "activeSection": null
-      },
-      "outline": {
-        "collapsedSections": []
-      }
-    }
-  },
+  "documents": {},
   "hotkeys": {
     "customHotkeys": {}
   },

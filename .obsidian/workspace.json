@@ -11,14 +11,14 @@
             "id": "c210112c7b60b3e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "lineage",
               "state": {
                 "file": "多模態（Multimodal）是什麼？三大範疇完整介紹.md",
                 "mode": "source",
                 "source": false
               },
-              "icon": "lucide-file",
-              "title": "多模態（Multimodal）是什麼？三大範疇完整介紹"
+              "icon": "lucide-ghost",
+              "title": "lineage"
             }
           },
           {
@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026.03.01/2026.03.01.md",
+                "file": "Syro 侧边栏复习教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026.03.01"
+              "title": "Syro 侧边栏复习教程"
             }
           },
           {
@@ -111,16 +111,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英文錯誤記錄.md",
+                "file": "Syro 侧边栏复习教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "英文錯誤記錄"
+              "title": "Syro 侧边栏复习教程"
+            }
+          },
+          {
+            "id": "b40c6a670ecf2dfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-07-29 2122.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-29 2122"
+            }
+          },
+          {
+            "id": "2275858c5128fce6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -177,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 425.5
   },
   "right": {
     "id": "0e1b6eaed397696e",
@@ -270,17 +294,36 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "3dd7b18a4d8c9a42",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "註腳"
+            }
+          },
+          {
+            "id": "31771e78ffd9ea23",
+            "type": "leaf",
+            "state": {
+              "type": "react-review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "已追踪笔记"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 392.5,
-    "collapsed": true
+    "width": 392.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -294,38 +337,53 @@
       "markdown-importer:開啟 Markdown 格式轉換器": false,
       "zk-prefixer:建立新唯一筆記": false,
       "workspaces:管理工作區配置": false,
+      "random-note:開始漫遊筆記": false,
+      "audio-recorder:開始/停止錄音": false,
       "obsidian-git:Open Git source control": false,
       "mandala-grid:切换九宫格视图": false,
       "lineage:Toggle Lineage view": false,
-      "mandala-grid:切换九宫格视图与普通 md 视图": false
+      "zettelkasten-navigation:open zk-index-graph": false,
+      "zettelkasten-navigation:open zk-local-graph": false,
+      "templater-obsidian:Templater": false,
+      "syro:复习卡片": false
     }
   },
-  "active": "6837f8f4d81ede59",
+  "active": "ebfeac0638132907",
   "lastOpenFiles": [
+    "課程 001：使用 AI 學習投資取向的 AI 會計課」",
+    "課程 001：使用 AI 學習投資取向的 AI 會計課」/我的學習者背景.md",
+    "課程 001：使用 AI 學習投資取向的 AI 會計課」/學習目標概覽.md",
+    "template/concept.md",
+    "20 Concepts/郝旭烈(郝哥)畢業於台灣清華大學工業工程學系、台灣政治大學企業管理研究所。曾任新加坡淡馬錫集團富登金融控股公司董事總經理及行政副總暨財務長；力晶半導體集團總經理特助、經營.md",
     "2026.03.01/2026.03.01.md",
-    "英文錯誤記錄.md",
+    "20 Concepts.md",
+    "2025-07-29 2122.md",
+    "槓桿思維實戰課： 走向富有與自由.md",
+    "20 Concepts/郝旭烈(郝哥)畢業於台灣清華大學工業工程學系、台灣政治大學企業管理研究所。曾任新加坡淡馬錫集團富登金融控股公司董事總經理及行政副總暨財務長；力晶半導體集團總經理特助、經營企劃處長；台積電財務高階主管；課程中擅長於將專業知識轉化成淺顯易懂的話語讓聽者理解。而老師多年的理工背景，也讓課程更有系統架構，使學員能更有邏輯及系統的方式學習。.md",
+    "20 Concepts",
+    "template",
+    "inbox",
+    "Syro 侧边栏复习教程.md",
+    "槓桿思維實戰課： 走向富有與自由 1.md",
+    "CleanShot 2026-02-18 at 23.44.21.png",
+    "CleanShot 2026-02-17 at 23.54.22.png",
+    "未命名 1.md",
+    "多模態（Multimodal）是什麼？三大範疇完整介紹.md",
+    "陪跑營每日練習.md",
+    "摘要.md",
+    "CleanShot 2026-02-18 at 23.43.41.png",
     "一、輸入多模態（Input Multimodality）.md",
+    "歡迎.md",
+    "英文錯誤記錄.md",
     "二、輸出多模態（Output Multimodality）.md",
     "三、整合型多模態（Integrated Multimodality）最關鍵的不是「會幾種形式」，而是能否整合。.md",
     "天下學習 成長心態×10大關鍵決策  改變現狀、人生與職涯雙贏.md",
-    "未命名.md",
-    "未命名 1.md",
     "多模態.md",
-    "多模態（Multimodal）是什麼？三大範疇完整介紹.md",
     "情緒的力量 覺察自我， 打造高品質人際關係 •陳永儀.md",
-    "陪跑營每日練習.md",
-    "摘要.md",
-    "歡迎.md",
-    "CleanShot 2026-02-18 at 23.44.21.png",
-    "CleanShot 2026-02-18 at 23.43.41.png",
-    "CleanShot 2026-02-17 at 23.54.22.png",
     "2026.03.01",
     "AI深度閱讀五週陪跑營/《AI 深度閱讀力五週陪跑營：用 AI × 四泳姿閱讀法重建你的學習節奏》 第二週.md",
     "思考.md",
     "导入-《AI 深度閱讀力五週陪跑營：用 AI × 四泳姿閱讀法重建你的學習節奏》 第二週.txt",
-    "二、輸出多模態（Output Multimodality） 1.md",
-    "().md",
-    "二、輸出多模態（Output Multimodality）AI 不只產出文字，也能生成多元形式內容。1. 文字生成報告撰寫教案設計程式碼生成2. 圖像生成插圖設計視覺資訊圖表視覺草圖3. 語音與影音生成語音朗讀AI 主播短影音腳本轉影片延伸應用：一段文字 → 生成簡報一份數據 → 產出圖表一段腳本 → 生成影片.md",
     "AI深度閱讀五週陪跑營"
   ]
 }

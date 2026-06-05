@@ -1,5 +1,23 @@
 {
-  "documents": {},
+  "documents": {
+    "多模態（Multimodal）是什麼？三大範疇完整介紹.md": {
+      "viewType": "mandala-grid",
+      "activeSection": "1",
+      "outline": null,
+      "mandalaView": {
+        "gridOrientation": "left-to-right",
+        "selectedLayoutId": "builtin:left-to-right",
+        "selectedCustomLayout": null,
+        "lastActiveSection": null,
+        "subgridTheme": "1",
+        "nx9RowsPerPage": 3,
+        "showDetailSidebarDesktop": false,
+        "showDetailSidebarMobile": null,
+        "pinnedSections": [],
+        "sectionColors": {}
+      }
+    }
+  },
   "hotkeys": {
     "customHotkeys": {
       "save_changes_and_exit_card": {
@@ -76,20 +94,10 @@
           "modifiers": []
         }
       },
-      "undo_change": {
+      "toggle_cell_preview_dialog": {
         "primary": {
-          "key": "z",
-          "modifiers": [
-            "Mod"
-          ]
-        }
-      },
-      "redo_change": {
-        "primary": {
-          "key": "y",
-          "modifiers": [
-            "Mod"
-          ]
+          "key": "Space",
+          "modifiers": []
         }
       },
       "toggle_mandala_mode": {
@@ -117,8 +125,12 @@
     "mandalaFontSize3x3Mobile": 12,
     "mandalaFontSize9x9Desktop": 11,
     "mandalaFontSize9x9Mobile": 10,
+    "mandalaFontSize7x9Desktop": 11,
+    "mandalaFontSize7x9Mobile": 10,
     "mandalaFontSizeSidebarDesktop": 16,
     "mandalaFontSizeSidebarMobile": 12,
+    "mandalaCellPreviewFontSizeDesktop": 22,
+    "mandalaCellPreviewFontSizeMobile": 16,
     "theme": {
       "inactiveNodeOpacity": 25
     },
@@ -130,8 +142,7 @@
     },
     "limitPreviewHeight": true,
     "zoomLevel": 1,
-    "showMinimap": false,
-    "showLeftSidebar": true,
+    "showLeftSidebar": false,
     "showMandalaDetailSidebarDesktop": false,
     "showMandalaDetailSidebarMobile": false,
     "detailSidebarPreviewModeDesktop": "rendered",
@@ -140,42 +151,59 @@
     "leftSidebarWidth": 500,
     "leftSidebarActiveTab": "pinned-cards",
     "applyGapBetweenCards": false,
-    "outlineMode": false,
     "mandalaMode": "3x3",
     "mandalaGridOrientation": "left-to-right",
+    "mandalaGridSelectedLayoutId": "builtin:left-to-right",
+    "mandalaGridCustomLayouts": [],
     "mandalaA4Mode": false,
     "mandalaA4Orientation": "landscape",
     "mandalaBackgroundMode": "custom",
     "mandalaGridBorderOpacity": 100,
+    "mandalaGridHighlightWidth": 2,
     "mandalaSectionColorOpacity": 100,
     "lastExportPreset": null,
-    "nodeIndentationWidth": 60,
-    "maintainEditMode": false,
-    "alwaysShowCardButtons": false,
     "showHiddenCardInfo": true,
     "show3x3SubgridNavButtonsDesktop": true,
     "show3x3SubgridNavButtonsMobile": true,
     "show9x9ParallelNavButtonsDesktop": true,
     "show9x9ParallelNavButtonsMobile": true,
+    "showDayPlanTodayButtonDesktop": true,
+    "showDayPlanTodayButtonMobile": true,
+    "showCellQuickPreviewDialogDesktop": true,
+    "showCellQuickPreviewDialogMobile": false,
+    "contextMenuCopyLinkVisibilityDesktop": {
+      "block-plain": true,
+      "block-embed": true,
+      "heading-plain": true,
+      "heading-embed": true,
+      "heading-embed-dollar": true
+    },
+    "contextMenuCopyLinkVisibilityMobile": {
+      "block-plain": true,
+      "block-embed": true,
+      "heading-plain": true,
+      "heading-embed": true,
+      "heading-embed-dollar": true
+    },
     "mobileEditFontSizeOffset": 0,
     "show9x9TitleOnly": false,
+    "enable9x9View": false,
+    "enableNx9View": true,
     "squareLayout": false,
     "whiteThemeMode": false,
     "mandalaEmbedDebug": false,
-    "hiddenVerticalToolbarButtons": []
+    "hiddenVerticalToolbarButtons": [],
+    "coreSectionMax": "unlimited",
+    "subgridMaxDepth": "unlimited"
   },
   "general": {
-    "defaultDocumentFormat": "sections",
     "linkPaneType": "tab",
-    "mandalaTemplatesFilePath": null
-  },
-  "styleRules": {
-    "documents": {},
-    "global": {
-      "rules": []
-    },
-    "settings": {
-      "activeTab": "global-rules"
-    }
+    "mandalaTemplatesFilePath": null,
+    "dayPlanEnabled": true,
+    "weekPlanEnabled": true,
+    "weekPlanCompactMode": true,
+    "weekStart": "monday",
+    "dayPlanDateHeadingFormat": "zh-short",
+    "dayPlanDateHeadingCustomTemplate": "## {date} {cn}"
   }
 }

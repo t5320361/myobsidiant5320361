@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "settings": {
+    "enableNoteCachePersistence": true,
+    "autoIncrementalSync": true,
+    "syncProgressDisplayMode": "full-only",
+    "enableNoteReviewPaneOnStartup": true,
+    "showRibbonIcon": true,
+    "showStatusBar": true,
+    "collapsedDeckPaths": [],
+    "deckCollapseState": {},
+    "flashcardHeightPercentage": 80,
+    "flashcardWidthPercentage": 40,
+    "reactFlashcardWidth": 720,
+    "reactFlashcardHeight": 600,
+    "reactDeckTreeWidth": 860,
+    "enableVolumeKeyControl": true,
+    "volumeUpMapping": 1,
+    "volumeDownMapping": 2,
+    "showSchedulingDebugMessages": false,
+    "showParserDebugMessages": false,
+    "showRuntimeDebugMessages": false,
+    "sidebarFilterBarHeight": 80,
+    "sidebarTimelineHeight": 300,
+    "sidebarTimelineOpen": true,
+    "sidebarTimelineSelectedPath": "Syro 侧边栏复习教程.md",
+    "timelineDisplayPreferences": {
+      "extracts": true,
+      "autoExtracts": true,
+      "graduatedExtracts": true,
+      "commitMessages": true
+    },
+    "previousRelease": "0.1.0"
+  },
+  "historyDeck": null,
+  "deckOptionsProtocolVersion": 2
+}
